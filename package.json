@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules index.mjs"
   },
@@ -11,6 +12,10 @@
   "dependencies": {
     "@google/generative-ai": "^0.3.1",
     "dotenv": "^16.4.5",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.0.5",
+    "pdfjs-dist": "^4.0.379",
+    "pdfreader": "^3.0.2"
   }
 }
